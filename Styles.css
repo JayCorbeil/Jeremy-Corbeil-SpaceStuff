@@ -1,0 +1,116 @@
+.middle {
+    margin: auto;
+}
+::selection{
+    background-color: mediumpurple;
+}
+.blackBackgroundPage{
+    background-color: rgba(0, 0, 0, 0.85);
+    margin-top: 50px;
+    color: white;
+    padding: 25px;
+    height: 1200px;
+    max-width: 75%;
+    border: 2.5px solid rgb(83, 83, 83);
+}
+.backImage{
+    background-image: url("/Images/PurpleSpace.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: black;
+}
+.OpenSans{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.SourceSans3{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+}
+.title{
+    max-width: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 50px;
+    text-align: center;
+}
+.menuRow{
+    width: 75%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin: auto;
+
+}
+.menuButton{
+    border: 2.5px solid rgb(51, 51, 51);
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 150px;
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+}
+li:hover {
+    border: 2.5px solid rgb(255, 255, 255);
+    background-color: rgba(37, 37, 37, 0.85);
+}
+li {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+.pageTitle{
+    font-size: 40px; 
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0px;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+}
+.video{
+    width: 450px;
+    height: 253px;
+    border: 5px rgb(83, 83, 83) solid;
+    border-radius: 10px;
+}
+img{
+    width: 450px;
+    height: 253px;
+}
+.gridD{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 50px;
+}
+.boxNews{
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 5px; 
+    padding-bottom: 20px;
+    border: 3px solid rgb(58, 58, 58);
+    border-radius: 10px;
+}
+.homeGrid{
+    display: grid; 
+    grid-template-columns: auto auto; 
+    grid-template-rows: auto auto; 
+    grid-column-gap: 150px;
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+}
+.homeImg{
+    border-radius: 200px; 
+    border: 3px solid rgb(51, 51, 51);
+    transition: transform .2s;
+    
+}
+.homeImg:hover{
+    transform: scale(1.8);
+}
